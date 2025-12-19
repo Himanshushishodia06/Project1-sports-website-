@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: rgb(110, 193, 220);
+            color: darkblue;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: darkblue;
+            padding: 15px;
+        }
+        #searchBar {
+            margin-top: 10px;
+            padding: 5px;
+            width: 400px;
+            border-radius: 5px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        button {
+            background-color: yellow;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .product {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            width: 200px;
+        }
+        .product img {
+            max-width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+        .product h3 {
+            margin: 10px 0;
+        }
+        .product p {
+            margin: 5px 0;
+        }
+        .btn {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #218838;
+        }
+        
+        footer {
+            margin-top: 10px;
+        }
+
+
+        .foot-panel1 {
+            background-color: lightblue;
+            color: darkblue;
+            padding: 10px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .copy {
+            background-color: #222f3d;
+            color: #df2fc4;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .foot-panel2 {
+            background-color: #222f3d;
+            color: white;
+            height: 300px;
+            display: flex;
+            justify-content: space-evenly;
+
+            ul a {
+                display: block;
+                color: white;
+                font-size: 10px;
+                color: #dddddd;
+                text-decoration: none;
+                margin: 5px 0;
+            }
+        }
+
+    
+        @media (max-width: 600px) {
+            .products {
+                flex-direction: column;
+                align-items: center;
+            }
+            .foot-panel2 {
+                flex-direction: column;
+                height: auto;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sports Equipment Shop</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#cricket">Cricket</a></li>
+            <li><a href="#badminton">Badminton</a></li>
+            <li><a href="#other">Other Sports</a></li>
+            <li><a href="file:///C:/Users/Himanshu%20Shishodia/Desktop/Project/AddToCart.html">Cart</a></li>
+            <li><a href="file:///C:/Users/Himanshu%20Shishodia/Desktop/Project/Login.html">Login</a></li>
+            <li><a href="#signup">Sign Up</a></li>
+            <li><a href="file:///C:/Users/Himanshu%20Shishodia/Desktop/Project/Contactus.html">Contact Us</a></li>
+            <li><a href="#help">Help</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#support">Support</a></li>
+            <li><a href="#deals">Offers</a></li>
+            <li><a href="#shipping">Shipping Info</a></li>
+            <li><a href="#privacy">Privacy Policy</a></li>
+            <li><a href="#terms">Terms of Service</a></li>
+            <div>
+                <input type="text" id="searchBar" placeholder="Search for products...">
+                <button>Search</button>
+            </div>
+        </ul>
+    </nav>
+
+    <!-- Login Form -->
+    <center>
+        <div class="container">
+        <table border="1" cellpadding="10" cellspacing="0" Background="Equipement_image copy.png">
+            <tr>
+                <td>
+                    <h2 align="center" style="background-color: lightblue;" >LOGIN</h2>
+                    <form>
+
+                        <label style="background-color: lightblue;">E-Mail / Phone:</label>
+                        <input type="text" type="number" name="email" placeholder="Enter Your E-Mail or Phone Number"><br><br>
+
+
+                        <label style="background-color: lightblue;">Password:</label>
+                        <input type="password" name="password" placeholder="Enter Your Password" ><br><br>
+
+
+                        <center>
+                            <button type="submit" value="Login" Align="center">Login</button>
+                            <button type="Reset" value="Forgot Password" Align="center">Forgot Password</button>   
+                        </center>
+                    </form>
+                </td>
+            </tr>
+        </table>
+        </div>
+
+    </center>
+
+    <!-- Footer-->
+
+    <footer>
+        <div class="foot-panel1">
+            <a href="#top">Back to Top</a>
+        </div>
+
+        <div class="copy">
+            <p>&copy; 2025 Sports Equipment Shop. All rights reserved.</p>
+        </div>
+
+        <div class="foot-panel2">
+            <ul>
+                <p>Get to Know Us</p>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a>About Sports Equipment Shop</a>
+                <a>Investor Relations</a>
+                <a>Sports Equipment Shop Devices</a>
+            </ul>
+            
+            <ul>
+                <p>Make Money with Us</p>
+                <a>Sell products on Sports Equipment Shop</a>
+                <a>Sell on Sports Equipment Shop Business</a>
+                <a>Sell apps on Sports Equipment Shop</a>
+                <a>Become an Affiliate</a>
+                <a>Advertise Your Products</a>
+                <a>Self-Publish with Us</a>
+                <a>Host an Sports Equipment Shop Hub</a>
+            </ul>
+            <ul>
+                <p>Sports Equipment Shop Payment Products</p>
+                <a>Sports Equipment Shop Rewards Visa Signature Cards</a>
+                <a>Sports Equipment Shop Store Card</a>
+                <a>Sports Equipment Shop Secured Card</a>
+                <a>Sports Equipment Shop Business Card</a>
+                <a>Reload Your Balance</a>
+                <a>Sports Equipment Shop Currency Converter</a>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
